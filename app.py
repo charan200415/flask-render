@@ -11,3 +11,9 @@ def profile():
 @app.route("/test")  # now the subdomain will be passed into the parameter 'username'
 def test():
     return "Hello !"
+
+if __name__ == '__main__':
+ 
+    # run() method of Flask class runs the application
+    # on the local development server.
+    app.run()
